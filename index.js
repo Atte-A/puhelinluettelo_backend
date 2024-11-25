@@ -100,9 +100,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-// Tarkista, ettöä 3.9 toimii muilta osin paitsi puhelinnumeron muutoksen osalta (get, delete)
-// --> Postmanilla toimii get ja delete...
-
-// 3.10 puhelinluettelon backend toimii, mutta jostain syystä persons ei näy...
-
-// tarkista proxy...backend toimii, mutta sovellus ei näy localhost:3001..
+// tarkista proxy, tee npm run deploy:full ja korjaa ongelmat
