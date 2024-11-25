@@ -13,8 +13,9 @@ app.use(
   morgan(':method :url :status :res[content-length] - :response-time ms :data'),
 );
 
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
+app.use(express.static('dist'));
 
 let persons = [
   {
@@ -99,4 +100,9 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-// 3.9 puhelinluettelon backend step1 VALMIS!
+// Tarkista, ettöä 3.9 toimii muilta osin paitsi puhelinnumeron muutoksen osalta (get, delete)
+// --> Postmanilla toimii get ja delete...
+
+// 3.10 puhelinluettelon backend toimii, mutta jostain syystä persons ei näy...
+
+// tarkista proxy...backend toimii, mutta sovellus ei näy localhost:3001..
