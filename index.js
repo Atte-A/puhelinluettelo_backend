@@ -16,19 +16,6 @@ app.use(
   morgan(':method :url :status :res[content-length] - :response-time ms :data'),
 );
 
-// const personSchema = new mongoose.Schema({
-//   name: String,
-//   number: String,
-// });
-
-// personSchema.set('toJSON', {
-//   transform: (document, returnedObject) => {
-//     returnedObject.id = returnedObject._id.toString();
-//     delete returnedObject._id;
-//     delete returnedObject.__v;
-//   },
-// });
-
 app.use(cors());
 app.use(express.json());
 app.use(express.static('dist'));
@@ -101,4 +88,5 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-// Tarkista vielä scriptit ja polut uudelleen
+// Tarkista vielä scriptit ja polut uudelleen (npm run build frontissa ja npm run deploy:full backissa)
+// Jatka "Virheiden käsittely"
