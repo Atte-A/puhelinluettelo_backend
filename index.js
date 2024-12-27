@@ -101,4 +101,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-// Sovellus toimii ja käyttää MongoDB localhost:3001. Tarkista github ja miten saa buildin siirrettyä sinne (dist ei päivity githubiin), tarkista package...deploy:full ja build:ui, miten nämä toimivat ja miten scripti ajetaan. Lisäksi katos MongoDB whitelsitilta et Renderin IP on hyväksytty
+// Tarkista vielä scriptit
