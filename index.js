@@ -101,4 +101,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-// Tarkista vielä scriptit
+// Tarkista vielä scriptit ja polut uudelleen
