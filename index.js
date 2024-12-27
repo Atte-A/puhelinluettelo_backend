@@ -5,7 +5,6 @@ require('dotenv').config();
 
 const morgan = require('morgan');
 const cors = require('cors');
-// const mongoose = require('mongoose')
 const Person = require('./models/person');
 
 morgan.token('data', function (request, response) {
@@ -88,5 +87,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-// Tarkista vielä scriptit ja polut uudelleen (npm run build frontissa ja npm run deploy:full backissa)
 // Jatka "Virheiden käsittely"
