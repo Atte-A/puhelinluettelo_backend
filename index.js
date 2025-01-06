@@ -83,7 +83,7 @@ app.delete('/api/persons/:id', (request, response, next) => {
     .catch((error) => next(error));
 });
 
-app.post('/api/persons', (request, response) => {
+app.post('/api/persons', (request, response, next) => {
   const { name, number } = request.body;
 
   if (!name || !number) {
