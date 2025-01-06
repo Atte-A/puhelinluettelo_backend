@@ -136,4 +136,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-// Validointi ja ESLint
+// Tarkista 3.19 virheenkäsittely, tutustu custom validointiin..
