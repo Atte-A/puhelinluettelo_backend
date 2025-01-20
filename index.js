@@ -9,6 +9,7 @@ app.use(express.static('dist'))
 
 const morgan = require('morgan')
 
+// eslint-disable-next-line no-unused-vars
 morgan.token('data', function (request, response) {
   return JSON.stringify(request.body)
 })
@@ -139,3 +140,4 @@ const PORT = process.env.PORT
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
+
