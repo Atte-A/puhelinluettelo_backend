@@ -1,6 +1,6 @@
 node_modules/
 .env
-dist/
+dist/assets
 *.log
 .DS_Store
 .vscode/
