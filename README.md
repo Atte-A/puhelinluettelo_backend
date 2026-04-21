@@ -86,7 +86,7 @@ Includes a small Node.js script for direct database interaction:
 - Backend deployed on Render
 - Frontend built with Vite and served as static assests via Express
 
-## What I learned
+## 📚 What I learned
 - Designing and implementing a RESTful API with Express
 - Structuring backend logic to handle CRUD operations and asynchronous database interactions
 - Using Mongoose for schema design, validation, and data modeling
@@ -97,11 +97,11 @@ Includes a small Node.js script for direct database interaction:
 - Working with environment variables for configuration
 - Deploying a backend service and serving a frontend build from Express
 
-## Author
+## 👤 Author
 Atte Ampuja
 [GitHub](https://github.com/Atte-A)
 
-## License
+## 📄 License
 This project is for educational purposes only.
 
 
