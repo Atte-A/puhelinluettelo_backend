@@ -98,8 +98,7 @@ Includes a small Node.js script for direct database interaction:
 - Deploying a backend service and serving a frontend build from Express
 
 ## 👤 Author
-Atte Ampuja
-[GitHub](https://github.com/Atte-A)
+Atte Ampuja [GitHub](https://github.com/Atte-A) | [LinkedIn](https://www.linkedin.com/in/atteampuja/)
 
 ## 📄 License
 This project is for educational purposes only.
